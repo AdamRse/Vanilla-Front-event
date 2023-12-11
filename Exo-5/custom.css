@@ -1,0 +1,12 @@
+#images{
+    display: none;
+}
+#carrousel{
+    text-align: center;
+    padding: 20px;
+
+}
+#carrousel img{
+    max-width: 500px;
+    max-height: 400px;
+}
