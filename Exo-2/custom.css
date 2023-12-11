@@ -1,0 +1,12 @@
+.bg-1{
+    background-color: #252b83;
+}
+.bg-2{
+    background-color: #b8d173;
+}
+.bg-3{
+    background-color: #4e1642;
+}
+#cadrillage div{
+    cursor: pointer;
+}
