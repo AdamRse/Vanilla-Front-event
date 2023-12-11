@@ -14,9 +14,9 @@ document.querySelector('button').addEventListener('click', function(){
 
     if(setupImgs.length>1){
         imgCarrousel.addEventListener("click", function(p){
+            let idCarrousel = getIdCarrouselInt();
             if((window.innerWidth/2) > p.x){
                 // next
-                let idCarrousel = getIdCarrouselInt();
                 if(idCarrousel=setupImgs.length-1){
                     imgCarrousel.className = "c-0";
                     imgCarrousel.src = setupImgs[0].src;
