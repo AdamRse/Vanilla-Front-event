@@ -1,0 +1,31 @@
+.caseLt{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 102px;
+    background-color: #aaa;
+    border: 2px solid #000;
+    text-align: justify;
+    padding: 3px;
+    user-select: none;
+    cursor: pointer;
+}
+.caseBg{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    margin: 2px;
+    background-color: #aaa;
+    border: 2px solid #000;
+    text-align: justify;
+    padding: 3px;
+    user-select: none;
+    cursor: pointer;
+}
+.blur{
+    filter: blur(6px)
+}
+.blur:hover{
+    filter: blur(0);
+    border: 2px solid #932;
+}
