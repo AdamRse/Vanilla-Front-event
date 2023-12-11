@@ -9,4 +9,5 @@
 #carrousel img{
     max-width: 500px;
     max-height: 400px;
+    cursor: pointer;
 }
