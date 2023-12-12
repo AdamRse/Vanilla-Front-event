@@ -1,6 +1,6 @@
 //paramètres
-let vitesseMs = 1000;
-let pauseMs = 4000;
+let vitesseMs = 2000;
+let pauseMs = 6000;
 
 //variable initialisation
 let setupImgs = document.querySelectorAll('#images img');
@@ -23,7 +23,6 @@ document.querySelector('button').addEventListener('click', function(){
 
     if(setupImgs.length>1){
         imgCarrousel.addEventListener("click", function(p){
-            let idCarrousel = getIdCarrouselInt();
             if((window.innerWidth/2) < p.x){
                 // next
                 moveCarrousel();
